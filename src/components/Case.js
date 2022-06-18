@@ -1,11 +1,11 @@
 import React from "react";
 
-function App() {
+function Case() {
   return (
     <div>
-      ipod
+      Screen
     </div>
   );
 }
 
-export default App;
+export default Case;

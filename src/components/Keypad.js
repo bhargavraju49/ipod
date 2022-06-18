@@ -1,11 +1,11 @@
 import React from "react";
 
-function App() {
+function Keypad() {
   return (
     <div>
-      ipod
+      Keypad
     </div>
   );
 }
 
-export default App;
+export default Keypad;

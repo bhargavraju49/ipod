@@ -1,11 +1,11 @@
 import React from "react";
 
-function App() {
+function Display() {
   return (
     <div>
-      ipod
+      Screen
     </div>
   );
 }
 
-export default App;
+export default Display;
