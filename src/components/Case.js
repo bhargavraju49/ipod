@@ -19,7 +19,8 @@ const style = {
     borderRadius:23,
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    borderStyle:"solid",
 
 }
 export default Case;
