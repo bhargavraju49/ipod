@@ -1,0 +1,74 @@
+.Keypad {
+    height:220px;
+    width:220px;
+    background-color:#d8dced;
+    border-radius:110px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Keypad div {
+    height:70px;
+}
+.Midblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Midblock div {
+    display: flex;
+    justify-content: center;
+    height:70px;
+    width:70px;
+}
+
+
+.Ball {
+    background-color:#9c4141;
+    border-radius:35px;
+}
+.pauseplay{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70px;        
+}
+.pauseplay div{
+    height: auto;
+    margin: auto;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.prev {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.prev div{
+    height: auto;
+    margin: auto;
+}
+
+.next div{
+    height: auto;
+    margin: auto;
+}
+
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.Menu div{
+    height: auto;
+    margin: auto;
+}

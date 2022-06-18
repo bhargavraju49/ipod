@@ -9,7 +9,7 @@ function Display() {
   }
   
   const style = {
-      height:275,
+      height:280,
       width:285,
       backgroundColor: '#d8dced',
       margin:'auto'

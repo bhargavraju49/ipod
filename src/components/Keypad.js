@@ -1,31 +1,39 @@
 import React from "react";
+import "../assets/keypad.css";
+
+import { BiSkipPrevious, BiSkipNext } from "react-icons/bi";
+import { GrCirclePlay } from "react-icons/gr";
+import { MdMenu } from "react-icons/md";
+
 
 function Keypad() {
   return (
-    <div style={style}>
-      <div style={stylei}></div>
+    <div className="Keypad">
+      <div className="Menu">
+        <div>
+            <MdMenu size={30} />
+        </div>
+      </div> 
+      <div className="Midblock">
+        <div className="prev">
+          <div>
+            <BiSkipPrevious size={40} />
+          </div>
+        </div>
+        <div className="Ball"></div>
+        <div className="next">
+            <div>
+            <BiSkipNext size={40} />
+            </div>
+        </div>
+      </div>
+      <div className="pauseplay">
+        <div>
+          <GrCirclePlay size={30} />
+        </div>
+      </div>
     </div>
   );
-}
-
-const style = {
-    height:220,
-    width:220,
-    backgroundColor: '#d8dced',
-    borderRadius:110,
-    margin:'auto',
-    display:'flex',
-    justifyContent: 'center'
-    
-}
-
-const stylei = {
-    height:100,
-    width:100,
-    backgroundColor: '#9c4141',
-    borderRadius:50,
-    margin:'auto'
-    
 }
 
 export default Keypad;
