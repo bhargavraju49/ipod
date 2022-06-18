@@ -14,7 +14,6 @@ function Display() {
       backgroundColor: '#d8dced',
       margin:'auto',
       borderStyle:"solid",
-      borderWidth:7
       
   }
 export default Display;
