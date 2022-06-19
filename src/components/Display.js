@@ -1,19 +1,13 @@
 import React from "react";
-
+import '../assets/display.css'
 function Display() {
     return (
-      <div style={style}>
-        
+      <div className="Display">
+        <div className="LeftPane">
+            
+        </div>
+        <div className="RightPane"></div>
       </div>
     );
-  }
-  
-  const style = {
-      height:280,
-      width:285,
-      backgroundColor: '#d8dced',
-      margin:'auto',
-      borderStyle:"solid",
-      
   }
 export default Display;

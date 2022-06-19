@@ -1,0 +1,21 @@
+.Display {
+    display: flex;
+    flex-direction: row;
+    height:280px;
+    width:285px;
+    background-color: #d8dced;
+    margin:auto;
+    border-style: solid;
+}
+
+.LeftPane {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.RightPane {
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
