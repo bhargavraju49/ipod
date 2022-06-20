@@ -22,6 +22,10 @@
     width: 50%;
     background-color: aquamarine;
 }
+.RightPane img{
+    height: 100%;
+    width: 100%;
+}
 
 .LeftPane div {
     text-align: center;

@@ -11,7 +11,10 @@ function Music(props) {
               </div>
             })}
         </div>
-        <div className="RightPane"></div>
+        <div className="RightPane">
+          <img  src="https://w0.peakpx.com/wallpaper/224/1002/HD-wallpaper-music-music-symbol.jpg"></img>
+
+        </div>
       </div>
     );
   }

@@ -11,8 +11,11 @@ function Home(props) {
               </div>
             })}
         </div>
-        <div className="RightPane"></div>
+        <div className="RightPane">
+          <img  src="https://i.pinimg.com/474x/4e/42/0f/4e420f062057cfed87e1797f3a205f64.jpg"></img>
+        </div>
       </div>
     );
   }
+
 export default Home;
