@@ -8,23 +8,28 @@ import { FiChevronUp, FiChevronDown } from "react-icons/fi";
 
 
 function Keypad(props) {
+  let menu = props.Menu
+  if (props.mpage){
+      menu = props.music
+  }
+  console.log(menu)
 
   return (
     <div className="parentkeypad">
-      <div className="Keypad" onDrag={()=>{console.log('hi')}}>
-      <div className="Menu">
+      <div className="Keypad">
+      <div className="Menu" onClick={props.homemenu}>
         <div>
             <MdMenu size={30} />
         </div>
       </div> 
       <div className="Midblock">
-        <div className="prev" onClick={props.up}>
+        <div className="prev" onClick={()=>{props.up(menu)}}>
           <div>
             <FiChevronUp size={40} />
           </div>
         </div>
-        <div className="Ball" onClick={(event)=>{console.log('ball');event.stopPropagation()}}></div>
-        <div className="next"  onClick={props.down}>
+        <div className="Ball" onClick={props.set}></div>
+        <div className="next"  onClick={()=>{props.down(menu)}}>
             <div>
             <FiChevronDown size={40} />
             </div>

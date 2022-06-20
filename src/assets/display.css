@@ -31,3 +31,13 @@
 .active {
     background-color: azure;
 }
+
+.cover {
+    position: relative;
+    margin: auto;
+}
+
+.cover p{
+    text-align: center;
+    font-size: xx-large;
+}
