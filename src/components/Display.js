@@ -1,13 +1,11 @@
 import React from "react";
 import '../assets/display.css'
-function Display() {
+import Home from './Homescreen'
+function Display(props) {
+  
+  console.log(props)
     return (
-      <div className="Display">
-        <div className="LeftPane">
-            
-        </div>
-        <div className="RightPane"></div>
-      </div>
+      <Home Menu = {props.Menu}></Home>
     );
   }
 export default Display;

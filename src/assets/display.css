@@ -9,6 +9,9 @@
 }
 
 .LeftPane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 100%;
     width: 50%;
     background-color: aqua;
@@ -18,4 +21,13 @@
     height: 100%;
     width: 50%;
     background-color: aquamarine;
+}
+
+.LeftPane div {
+    text-align: center;
+    height: 25%;
+}
+
+.active {
+    background-color: azure;
 }
